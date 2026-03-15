@@ -459,7 +459,7 @@ pip install -r requirements.txt
 Akshaya Manoj Ambadkar
 📧 akshaya.mambadkar@gmail.com
 💼 https://www.linkedin.com/in/akshayasm1/
-🐙 [github.com/akshayama-ds](https:// github.com/akshayama-ds)
+🐙 https:// github.com/akshayama-ds
 
 ---
 
