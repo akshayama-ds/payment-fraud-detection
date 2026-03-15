@@ -205,3 +205,48 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ── Large data files (Kaggle ToS — never upload raw data) ──────────
+data/raw/
+*.csv
+*.parquet
+*.feather
+*.h5
+# Exception: allow the small sample file
+!data/sample/*.csv
+ 
+# ── Trained model binaries (too large for Git) ─────────────────────
+models/*.pkl
+models/*.joblib
+models/*.model
+*.xgb
+*.lgb
+ 
+# ── Python bytecode ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+ 
+# ── Virtual environments ────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ 
+# ── Secrets and credentials — CRITICAL ─────────────────────────────
+.env
+*.env
+secrets.yaml
+secrets.json
+config/credentials.yaml
+ 
+# ── Jupyter Notebooks ───────────────────────────────────────────────
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+ 
+# ── Experiment tracking ─────────────────────────────────────────────
+mlruns/
+optuna.db
+*.db
+ 
+# ── IDEs ────────────────────────────────────────────────────────────
